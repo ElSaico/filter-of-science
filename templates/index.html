@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Filter of Science</title>
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Filter of Science</h1>
+            </header>
+            <main>
+                <form method="POST" action="/search">
+                    <input type="text" name="search" class="u-full-width" placeholder="Enter your search terms...">
+                    <label for="results">Upload your Web of Science output...</label>
+                    <input type="file" name="results">
+                    <button type="submit" class="button-primary u-pull-right">Search</button>
+                </form>
+            </main>
+        </div>
+    </body>
+</html>
